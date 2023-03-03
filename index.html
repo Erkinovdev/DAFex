@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="/img/site-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAFex</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="satyle.scss">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <div
+    style="
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: 0.1;
+      margin: 0;
+      z-index: -1;
+    "
+  ></div>
+    <body>
+    
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+      <source src="/img/DAFEX_VIDEO.mp4" type="video/mp4" />
+    </video>
+    <div class="conteiner">
+     
+      <div class="head">
+        <a href="#"
+          ><div class="head_logo">
+            <img
+              class="logotipe"
+              width="160"
+              src="/img/site-logo1.png"
+              alt=""
+            /></div
+        ></a>
+        <nav>
+          <ul class="head_ul">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#servises">Сервисы</a></li>
+            <li><a href="#servise">Услуги</a></li>
+            <li><a href="#login">Связь с нами</a></li>
+          </ul>
+        </nav>
+        <a href="tel:+998712022020"
+          ><div class="button-85 button-86">+998 (99) 994-30-30</div></a
+        >
+      </div>
+
+      <div class="block_p">
+        <p class="p1">ФОКУС НА СОВЕРШЕНСТВЕ</p>
+        <p class="p2">
+          Мы адаптируемся к постоянно меняющимся потребностям наших клиентов и
+          отрасли грузоперевозок.
+        </p>
+        <div class="buttons_head">
+          <a href="#login"
+            ><div class="block_p_left_btn button-86">СВЯЗАТЬСЯ С НАМИ</div></a
+          >
+          <a href="#about"
+            ><div class="block_p_right_btn button-86">ПОДРОБНЕЕ О НАС</div></a
+          >
+        </div>
+      </div>
+      <div id="about" class="line2">
+        <div class="line2_left">
+          <p class="p1">О нас</p>
+          <p class="p2">
+            Мы реализуем успешную доставку различных видов груза из любой точки
+            планеты, в частности: КНР, Турция, РФ, Юго-восточная Азия и др.
+            DAFex полностью обеспечит сохранность вашего груза и его
+            своевременную доставку.
+          </p>
+          <p class="p3">
+            Мы осознаем потребность в экономически эффективных услугах и
+            стремимся предоставлять продукты, которые превосходят наших
+            конкурентов.
+          </p>
+        </div>
+        <div class="line2_right">
+          <img width="750" height="550" src="/img/dafex.jpg" alt="" />
+        </div>
+      </div>
+      <div id="line2_none" class="line2">
+        <div class="line2_right">
+          <img
+            width="750"
+            height="550"
+            src="/img/photo_2023-02-28_10-55-24.jpg"
+            alt=""
+          />
+        </div>
+        <div class="line2_left">
+          <p class="p1">Привелигии</p>
+          <p class="p2">
+            Главное для нас – это результат. А именно: доставить товар в целости
+            и сохранности, оптимизировать расходы и время, также как сохранить
+            нервы нашим клиентам.
+          </p>
+          <p class="p3">
+            Мы предоставляем надежные услуги с опытом своевременной доставки,
+            высокими стандартами безопасности и исключительным обслуживанием
+            клиентов. Мы адаптируемся к постоянно меняющимся потребностям наших
+            клиентов и отрасли грузоперевозок.
+          </p>
+        </div>
+      </div>
+      <div class="line2">
+        <div class="line2_left">
+          <p class="p1">Наши Клиенты</p>
+          <p class="p2">
+            Мы предоставляем надежные услуги с опытом своевременной доставки,
+            высокими стандартами безопасности и исключительным обслуживанием
+            клиентов. Мы адаптируемся к постоянно меняющимся потребностям наших
+            клиентов и отрасли грузоперевозок.
+          </p>
+          <p class="p3">
+            Мы осознаем потребность в экономически эффективных услугах и
+            стремимся предоставлять продукты, которые превосходят наших
+            конкурентов.
+          </p>
+        </div>
+        <div class="line2_right">
+          <img width="750" height="550" src="/img/партнёры.jpg" alt="" />
+        </div>
+      </div>
+
+      <style>
+        @media (max-width: 767px) {
+          .carousel-inner .carousel-item > div {
+            display: none;
+          }
+          .carousel-inner .carousel-item > div:first-child {
+            display: block;
+          }
+        }
+
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+          display: flex;
+        }
+
+        /* medium and up screens */
+        @media (min-width: 768px) {
+          .carousel-inner .carousel-item-end.active,
+          .carousel-inner .carousel-item-next {
+            transform: translateX(25%);
+          }
+
+          .carousel-inner .carousel-item-start.active,
+          .carousel-inner .carousel-item-prev {
+            transform: translateX(-25%);
+          }
+        }
+
+        .carousel-inner .carousel-item-end,
+        .carousel-inner .carousel-item-start {
+          transform: translateX(0);
+        }
+      </style>
+      <div style="width: 100%" class="container text-center my-2">
+        <div class="row mx-auto my-auto justify-content-center">
+          <div
+            id="recipeCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-3">
+                  <div style="border: 0px;background-color: transparent;" class="card">
+                    <div class="card-img">
+                      <img
+                        src="/img/Akfa_logo-pyvbwm22hzab6uuc8q7lbk4b8wnvtg33095qwgzwn4.png"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div style="border: 0px;background-color: transparent;" class="card">
+                    <div class="card-img">
+                      <img
+                        src="/img/Artel-01-pyvbwnxqvncvu2rlxr0ugjn8foem8uajoigpv0x4ao.png"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div style="border: 0px;background-color: transparent;" class="card">
+                    <div class="card-img">
+                      <img src="/img/jack37827827872.png" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div style="border: 0px ;background-color: transparent;" class="card">
+                    <div class="card-img">
+                      <img src="/img/vero_logo.png" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div style="border: 0px; background-color: transparent;" class="card">
+                    <div class="card-img">
+                      <img
+                        src="/img/689px-Uzbekistan_Football_Federation.svg_-pyvbvsx2m46f6y0nyvm5o9h0tyni6tvek8xp0w7400.png"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div style="border: 0px; background-color: transparent;" class="card">
+                    <div class="card-img">
+                      <img
+                        src="/img/gozo-logo-3-2-pyvbx2z5wzxgzu5rhxivkfulxuchnzy92kwhjgatj4.png"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+            style="color:transparent;" class="carousel-control-prev bg-transparent w-aut"
+              href="#recipeCarousel"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+              style="color:transparent;" class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+            <a
+               class="carousel-control-next bg-transparent w-aut"
+              href="#recipeCarousel"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+               style="color:transparent;" class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        let items = document.querySelectorAll(".carousel .carousel-item");
+
+        items.forEach((el) => {
+          const minPerSlide = 4;
+          let next = el.nextElementSibling;
+          for (var i = 1; i < minPerSlide; i++) {
+            if (!next) {
+              // wrap carousel by using first child
+              next = items[0];
+            }
+            let cloneChild = next.cloneNode(true);
+            el.appendChild(cloneChild.children[0]);
+            next = next.nextElementSibling;
+          }
+        });
+      </script>
+
+      <!-- Line 3 -->
+
+      <div id="servises" class="line3">
+        <p class="line3_p1">Наши сервисы</p>
+        <div class="line3_blocks">
+          <div class="block">
+            <p class="block_icon"><i class="fa-solid fa-landmark"></i></p>
+            <div class="line3_block_row">
+            <p class="block_p1">ГЕНЕРАЛЬНЫЕ ПЕРЕВОЗКИ</p>
+            <p class="block_p2">
+              Компания предлагает сухие фургоны, рефрижераторы, бортовые и
+              дорогостоящие перевозки в более чем 48 штатах.
+            </p></div>
+          </div>
+          <div class="block">
+            <p class="block_icon"><i class="fa-solid fa-shield-halved"></i></p>
+            <div class="line3_block_row">
+
+            <p class="block_p1">Ответственность застрахована</p>
+            <p class="block_p2">
+              Многолетний опыт работы позволил нам наладить доверительные
+              деловые отношения по всему миру
+            </p></div>
+          </div>
+          <div class="block">
+            <p class="block_icon"><i class="fa-solid fa-truck"></i></p>
+            <div class="line3_block_row">
+            <p class="block_p1">ОБОРУДОВАНИЕ</p>
+            <p class="block_p2">
+              Помогите малым предприятиям найти лучшее оборудование с помощью
+              широкого ассортимента современных грузовиков и прицепов от
+              дилерских центров.
+            </p></div>
+          </div>
+          <div class="block">
+            <p class="block_icon"><i class="fa-solid fa-computer"></i></p>
+            <div class="line3_block_row">
+            <p class="block_p1">СЕРВИС</p>
+            <p class="block_p2">
+              Разработка логистических приложений, веб-сайтов и платформ.
+            </p>
+            <p style="color: #f889024b" class="block_p4">Скоро</p></div>
+          </div>
+        </div>
+      </div>
+      <!-- line 4 -->
+      <div class="line4">
+        <p class="why">ПОЧЕМУ DAFex?</p>
+        <div class="line4_blocks">
+          <div class="line4_block">
+            <div class="line4_left">01</div>
+            <div class="line4_right">
+              <p class="line4_p1">ПЕРЕВОЗКИ "ПОД КЛЮЧ"</p>
+              <p class="line4_p2">
+                DAFex предлагает весь спектр логистических услуг, адаптированных
+                под потребности клиента.
+              </p>
+            </div>
+          </div>
+          <div class="line4_block">
+            <div class="line4_left">02</div>
+            <div class="line4_right">
+              <p class="line4_p1">КАЧЕСТВЕННОЕ ОБОРУДОВАНИЕ.</p>
+              <p class="line4_p2">
+                Большинству наших грузовиков и оборудования менее 2 лет, и ни
+                один из них не старше 4 лет. Это обеспечивает надежную
+                транспортировку и снижает риск поломок.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="line4_blocks">
+          <div class="line4_block">
+            <div class="line4_left">03</div>
+            <div class="line4_right">
+              <p class="line4_p1">ОПТИМАЛЬНАЯ СТОИМОСТЬ</p>
+              <p class="line4_p2">
+                Тем самым, на сегодняшний день очень важно находить
+                новые возможности для снижения затрат. Мы хотим подчеркнуть, что
+                на перевозках с компанией DAFex вы сможете экономить до 20%.
+              </p>
+            </div>
+          </div>
+          <div class="line4_block">
+            <div class="line4_left">04</div>
+            <div class="line4_right">
+              <p class="line4_p1">СКЛАДЫ НА МЕСТЕ.</p>
+              <p class="line4_p2">
+                На крупных объектах, что позволяет нам предлагать региональные
+                поставки.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="liner_login">
+        <a class="abcd" href="#login"
+          ><div class="button-86">подать заявку сейчас</div></a
+        >
+      </div>
+      <div id="servise" class="liner5">
+        <p class="liner5_text">Наши услуги</p>
+        <div class="line5_blocks">
+          <div
+            style="
+              border-top-left-radius: 10px;
+              border-bottom-right-radius: 10px;
+            "
+            class="liner5_block"
+          >
+            <img src="/img/samalyot.avif" alt="" />
+            <div class="div_zastavka"></div>
+            <p class="liner5_p">АВИАЦИОННЫЕ ПЕРЕВОЗКИ</p>
+            <a href="avia.html"
+              ><div class="btn_porobne">
+                <p class="liner5_btn">Подробнее</p>
+              </div></a
+            >
+          </div>
+          <div
+            style="
+              border-top-right-radius: 10px;
+              border-bottom-left-radius: 10px;
+            "
+            class="liner5_block"
+          >
+            <img src="/img/tractorTrailer.jpg" alt="" />
+            <div class="div_zastavka"></div>
+            <p class="liner5_p">АВТОМОБИЛЬНЫЕ ПЕРЕВОЗКИ</p>
+            <a href="truck.html"
+              ><div class="btn_porobne">
+                <p class="liner5_btn">Подробнее</p>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="line5_blocks">
+          <div
+            style="
+              border-bottom-left-radius: 10px;
+              border-top-right-radius: 10px;
+            "
+            class="liner5_block"
+          >
+            <img src="/img/poezd.avif" alt="" />
+            <div class="div_zastavka"></div>
+            <p class="liner5_p">Ж/Д ПЕРЕВОЗКИ</p>
+            <a href="ailway.html"
+              ><div class="btn_porobne">
+                <p class="liner5_btn">Подробнее</p>
+              </div></a
+            >
+          </div>
+          <div
+            style="
+              border-top-left-radius: 10px;
+              border-bottom-right-radius: 10px;
+            "
+            class="liner5_block"
+          >
+            <img src="/img/korabl.jpg" alt="" />
+            <div class="div_zastavka"></div>
+            <p class="liner5_p">Мультимодальные перевозки</p>
+            <a href="sea.html"
+              ><div class="btn_porobne">
+                <p class="liner5_btn">Подробнее</p>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Line 6 -->
+      <div class="line6">
+        <p class="line6_p">Как мы работаем</p>
+        <div class="line4_blocks line4_6_blocks">
+          <div class="line6_block">
+            <div class="line6_p1">01</div>
+            <div class="line4_right">
+              <p class="line6_p2">Подача заявки</p>
+              <p class="line6_p3">
+                Вы можете осуществить подачу заявки с помощью звонка или через
+                соц.сети
+              </p>
+            </div>
+          </div>
+          <div class="line6_block">
+            <div class="line6_p1">02</div>
+            <div class="line4_right">
+              <p class="line6_p2">Связь с менеджером</p>
+              <p class="line6_p3">
+                Наш менеджер предоставляет полную консультацию исходя из
+                специфики и деталей вашей заявки.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="line4_blocks line4_6_blocks">
+          <div class="line6_block">
+            <div class="line6_p1">03</div>
+            <div class="line4_right">
+              <p class="line6_p2">Расчет тарифа</p>
+              <p class="line4_p3">
+                Расчет производится на основе данных груза и локации.
+              </p>
+            </div>
+          </div>
+          <div class="line6_block">
+            <div class="line6_p1">04</div>
+            <div class="line6_right">
+              <p class="line6_p2">Договор и оплата.</p>
+              <p class="line6_p3">
+                После согласование и подписание договора обеими сторонами,
+                осуществляется внесение оплаты любым удобным способом.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+     <div class="liner8">
+      <div class="liner4_blocks">
+        <div class="liner4_block">
+          <div class="line8_blocks">
+          <p class="liner4_p1">2,000+</p>
+          <p class="liner4_p2">Перевозок</p></div>
+          <p class="liner4_p3"><i class="fa-solid fa-truck-fast"></i></p>
+        </div>
+        <div class="liner4_block">
+          <div class="line8_blocks">
+          <p class="liner4_p1">100+</p>
+          <p class="liner4_p2">Партнеры</p></div>
+          <p class="liner4_p3"><i class="fa-solid fa-handshake"></i></p>
+        </div>
+      </div>
+      <div class="liner4_blocks">
+
+        <div class="liner4_block">
+          <div class="line8_blocks">
+          <p class="liner4_p1">64+</p>
+          <p class="liner4_p2">Склады</p></div>
+          <p class="liner4_p3"><i class="fa-solid fa-warehouse"></i></p>
+        </div>
+        <div class="liner4_block">
+          <div class="line8_blocks">
+          <p class="liner4_p1">5+</p>
+          <p class="liner4_p2">Лет</p></div>
+          <p class="liner4_p3"><i class="fa-solid fa-star"></i></p>
+        </div>
+      </div>
+    </div>
+      <div class="line7">
+        <div class="line7_right">
+          <p class="line7_right_p1">СВЯЖИТЕСЬ С НАМИ</p>
+          <p class="line7_right_p2">Штаб-квартиры</p>
+          <p class="line7_right_p3">
+            <i class="fa-solid fa-location-dot"></i> Узбекистан, Ташкент
+            Чилонзор ул.Чорбог
+          </p>
+          <a class="abcd" href="tel:+998(99)994-30-30"
+            ><p class="line7_right_p4">
+              <i class="fa-solid fa-phone"></i> +998(99)994-30-30
+            </p></a
+          >
+          <a class="abcd" href="tel:+998(99)602-30-30"
+          ><p class="line7_right_p4">
+            <i class="fa-solid fa-phone"></i> +998(99)602-30-30
+          </p></a
+        >
+          <p class="line7_right_p5">
+            <i class="fa-solid fa-envelope"></i> info@dafex.uz
+          </p>
+          <div class="icons_about">
+            <a target="_blank" href="https://m.facebook.com/dafex.uz"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://instagram.com/dafex.uz?igshid=YmMyMTA2M2Y="
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a target="_blank" href="https://t.me/DAFex_help_bot"
+              ><i class="fa-solid fa-headset"></i></a>
+            <a target="_blank" href="https://t.me/dafex_uz"
+              ><i class="fa-solid fa-paper-plane"></i
+            ></a>
+          </div>
+        </div>
+        <div id="login" class="line7_left">
+          <input placeholder="Имя" type="text" />
+          <input placeholder="Номер телефона" type="text" />
+          <input
+            placeholder="Отправить по электронной почте
+          "
+            type="email"
+          />
+          <label for="">Сообщения</label>
+          <textarea type="text"></textarea>
+          <div
+            class="input button-86"
+            type="button"
+            onclick="alert('✅✉️Успешно отправлено спасибо')"
+            value="Подать заявку сейчас"
+          >
+            Подать заявку сейчас
+          </div>
+        </div>
+      </div>
+      <p>Copyright © 2022 DAFex LOGISTICS and CONSULTING</p>
+    </div>
+    <script>
+      let navigator = document.querySelector(".chekbtn");
+      navigator.onclick = function () {
+        navigator.classList.toggle("active");
+      };
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script >
+     fetch('http://127.0.0.1:5501/index.html').then(data => {
+    console.log(data)
+    console.log(data.text())
+  })
+    </script>
+  </body>
+</html>
